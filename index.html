@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 25%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 75%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <nav class="topnav" id="navbar">
+              <header></header>
+
+              <a href="#Loosen_Axle_Nut" class="nav-link">
+                Loosen Axle Nut
+              </a>
+              <a href="#Remove_Tire_and_Old_Tube" class="nav-link">
+                Remove Tire and Old Tube
+              </a>
+              <a href="#Inflate_New_Tube" class="nav-link">
+                Inflate New Tube
+              </a>
+              <a href="#Work_Tube_into_Tire" class="nav-link">
+                Work Tube into Tire
+              </a>
+              <a href="#Inflate_Tire" class="nav-link">
+                Inflate Tire
+              </a>
+            </nav>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="header" >
+            <h1>How to Change a Bicycle Tire</h1>
+          </div>
+          <main id="main-doc">
+            <div class="card">
+              <section class="main-section" id="Loosen_Axle_Nut">
+                <header>Loosen Axle Nut</header>
+                <code>First conduct a safety check</code>
+                <ol>
+                  <li>Do you have a tire bead jack?</li>
+                  <li>Are you standing up?</li>
+                  <li>Are you leaning the tire against your legs?</li>
+                  <li>Do you have a bike multi-tool?</li>
+                  <li>Have you completely deflated the tire?</li>
+                </ol>
+                <p>When you first change a bicycle tire, it's a good idea to take notice of your surroundings.</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </section>
+            </div>
+            <div class="card">
+              <section class="main-section" id="Remove_Tire_and_Old_Tube">
+                <header>Remove Tire and Old Tube</header>
+                <code>The valve cap is a tube with a flap that holds against air pressure.</code>
+                <p>Most modern bicycles require you to start by taking off the valve cap before placing a tire lever beneath the tire.</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </section>
+            </div>
+            <div class="card">
+              <section class="main-section" id="Inflate_New_Tube">
+                <header>Inflate New Tube</header>
+                <code>Inflate the new tube enough for tube to just hold its shape</code>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </section>
+            </div>
+            <div class="card">
+              <section class="main-section" id="Work_Tube_into_Tire">
+                <header>Work Tube into Tire</header>
+                <code>Start from the side of the wheel opposite the valve, and carefully work bead onto the rim.</code>
+                <p>Be sure not to pinch the tube as you work towards the valve.</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </section>
+            </div>
+            <div class="card">
+              <section class="main-section" id="Inflate_Tire">
+                <header>Inflate Tire</header>
+                <code>Inflate tire to full pressure, then check using pressure gauge.</code>
+                <p>Enjoy a safe ride.</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </section>
+            </div>
+          </main>
+        </div>
+      </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
